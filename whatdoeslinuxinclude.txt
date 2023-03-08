@@ -1,0 +1,12 @@
+What does Linux include?
+
+Kernel
+The base component of the OS. Without it, the OS doesn’t work. The kernel manages the system’s resources and communicates with the hardware. It’s responsible for memory, process, and file management.
+
+
+System user space
+The administrative layer for system-level tasks like configuration and software install. This includes the shell, or command line, daemons, processes that run in the background, and the desktop environment.
+
+
+Applications
+A type of software that lets you perform a task. Apps include everything from desktop tools and programming languages to multiuser business suites. Most Linux distributions offer a central database to search for and download additional apps.
