@@ -1,0 +1,18 @@
+//Full adder_Task
+module FullAdder(input a, input b, input cin, output sum, output cout);
+  wire s1, s2, c1, c2;
+  
+  // First stage
+  xor gate1 (s1, a, b);
+  and gate2 (c1, a, b);
+  
+  // Second stage
+  xor gate3 (sum, s1, cin);
+  and gate4 (s2, s1, cin);
+  
+  // Third stage
+  or gate5 (cout, c1, s2);
+  
+endmodule
+
+
